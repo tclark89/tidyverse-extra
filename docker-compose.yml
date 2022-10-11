@@ -9,4 +9,4 @@ services:
     volumes:
       - ~/.config/rstudio:/home/rstudio/.config/rstudio
       - ~/.local/share/rstudio:/home/rstudio/.local/share/rstudio
-      - ~/code/R:/home/rstudio/workspace
+      - ~/code:/home/rstudio/workspace
