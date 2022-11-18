@@ -6,6 +6,7 @@ services:
     environment:
       PASSWORD: rstudio
       ROOT: true
+    restart: unless-stopped
     volumes:
       - ~/.config/rstudio:/home/rstudio/.config/rstudio
       - ~/.local/share/rstudio:/home/rstudio/.local/share/rstudio
